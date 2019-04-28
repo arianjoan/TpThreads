@@ -6,7 +6,7 @@ Trabajo practico N2 - Threads (Hangman)
 Ambas maneras al final hacen lo mismo, correr una porción de codigo concurrentemente en el procesador.
 Una gran diferencia es que Thread es una clase por lo tanto quien la utilice debe extender de ella, por lo tanto, esa clase se queda sin poder extender de otra ya que en java no existe herencia multiple, en cambio Runnable es una interface, por lo tanto si una clase tiene herencia y debe usar hilos, se verá obligada a implementar Runnable.
 
-#Ciclo de vida de un Thread:
+# Ciclo de vida de un Thread:
 
 1.New: El thread ha sido creado pero no inicializado, es decir, no se ha ejecutado todavía el método start().
 
